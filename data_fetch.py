@@ -29,6 +29,7 @@ class DataBase():
 
         segments = []
         usage = {}
+        utc_offset = 0
 
         for gid, start, end, utc_start, raw_title in rows:
             title = common_map.get(gid, "(unknown window)")
