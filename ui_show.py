@@ -219,7 +219,7 @@ class UIRenderer():
         ui.run_javascript(f"""
             window.periodChart = Highcharts.chart('period-gantt-graph', {{
                 chart: {{
-                    type: 'column'
+                    type: 'column', height: 500
                 }},
                 title: {{
                     text: '{start_date_str} to {end_date_str} Usage Statistics'
