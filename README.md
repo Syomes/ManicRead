@@ -24,7 +24,7 @@ Python 3.10+ is recommended.
 ### Clone
 
 ```bash
-git clone https://github.com/SevenSec114/ManicRead.git
+git clone https://github.com/Syomes/ManicRead.git
 ```
 
 ### Dependencies
